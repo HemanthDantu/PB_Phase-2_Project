@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Twitter Banking Analysis</title> 
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script>
+ 
+  $( document ).ready(function() {
+    $('#process').hide();
+    
+  });
+ 
+  </script>
+  <script type="text/javascript">
+$(document).ready(function(){
+$('#form1').on('submit', function() {
+ 
+  $('#process').show();
+  })
+});
+  </script>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+
+<link href="tooplate_style.css" rel="stylesheet" type="text/css" />
+
+    <style type="text/css">
+        .style1
+        {
+            color: #CC6600;
+            font-size: xx-large;
+            font-family: "Times New Roman", Times, serif;
+        }
+        .style2
+        {
+            font-family: "Times New Roman", Times, serif;
+            color: #0066FF;
+        }
+        .style3
+        {
+            font-family: "Times New Roman", Times, serif;
+        }
+        .style4
+        {
+            width: 290px;
+            height: 283px;
+        }
+        .style5
+        {
+            color: Brown;
+            font-size: x-large;
+            font-family: "Times New Roman", Times, serif;
+        }
+    </style>
+
+</head>
+<body> 
+
+<div id="tooplate_header_wrapper">
+
+    <div id="tooplate_header">
+    
+        <div id="site_title">
+      
+        
+        	
+        
+            <span class="style1"><strong>Twitter Banking Analysis<br />
+            </strong></span>
+            <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="style2">&nbsp; .... A Place for Analyzing your Banking Data </span></div> <!-- end of site_title -->
+        
+        <div id="header_phone_no">
+
+		
+        
+        </div>
+        
+        <div class="cleaner_h10"></div>
+        
+        <div id="tooplate_menu">
+        	
+            <div id="home_menu"><a href="#"></a></div>
+                
+            <ul>
+                <li class="style3"><a href="home.html" class="current">Home</a></li>
+                <li class="style3"><a href="Dataframe.html">Dataframe Queries</a></li>
+            
+                <li class="style3"><a href="javardd.html">RDD Queries</a></li>
+                
+            </ul>    	
+        
+        </div> <!-- end of tooplate_menu -->
+        
+    </div>	  
+</div> <!-- end of header_wrapper -->
+
+
+
+<div id="tooplate_main">
+    
+    <div id="tooplate_content">
+    
+     <table align="left" width="300">
+    <tr>
+    <td>
+    <h3 style="font-family:Times New Roman"><font color="Blue">RDD Query Selection</font></h3>
+    </td>
+    
+    </tr>
+    
+    </table>
+    
+    <form id="form1" method="Post" action="RDDQueries">
+    
+    <table align="left" width="350">
+    <tr>
+    <td>
+    </td>
+    <td>Select Option</td><td>:</td>
+    <td>
+        <select name="query_choice">
+           <option value="0">Select Query Option</option>
+           <option value="1">RDDQuery1</option>
+           <option value="2">RDDQuery2</option>
+           <option value="3">RDDQuery3</option>
+        </select>
+        </td><td> <input type="submit" value="Submit">  </td>
+         </tr>
+       
+      
+      </table>   
+      
+           <br/>
+     
+      <div id="process">
+      
+      <img src="images/load.gif">
+    
+          </div> 
+              
+</form>  
+    
+   <table height="250"></table>
+    </div>
+   
+    <div class="cleaner"></div>  
+
+<div id="tooplate_footer_wrapper">
+
+     <div id="tooplate_footer">
+    
+      Copyright @ 2016 &nbsp; &nbsp;&nbsp<a href="http://www.twitterbankinganalysis.com">Twitter Banking Analysis</a>
+    
+    </div> <!-- end of tooplate_footer -->
+
+</div> 
+    
+</body>
+</html>
